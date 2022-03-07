@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.wrapper {
+    width: 825px;
+    height: 580px;
+    background-color: rgba(238, 238, 238, 0.721);
+    margin: 12px;
+}
+header {
+    font-size: 38px;
+    font-weight: bold;
+    padding: 40px;
+    width: 52%;
+    line-height: .9em;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 0 40px;
+}
+.card {
+    width: 350px;
+    height:180px;
+    background-color: #fff;
+    border-left: 10px solid rgba(235, 209, 8, 0.892);
+}
+.card-heading {
+    color: rgba(235, 209, 8, 0.892);
+    font-size: normal;
+    margin: 15px;
+}
+.card-text {
+    margin: 0 15px;
+}
+i {
+    margin: 15px;
+}
